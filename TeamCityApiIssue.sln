@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teamcity-api-issue", "teamcity-api-issue\teamcity-api-issue.csproj", "{FED62ED5-90C7-4A57-9D24-C3BDB603FECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityApiIssue", "TeamCityApiIssue\TeamCityApiIssue.csproj", "{FED62ED5-90C7-4A57-9D24-C3BDB603FECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

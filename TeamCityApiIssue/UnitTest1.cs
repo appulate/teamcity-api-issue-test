@@ -1,4 +1,4 @@
-namespace teamcity_api_issue;
+namespace TeamCityApiIssue;
 
 public class Tests
 {
