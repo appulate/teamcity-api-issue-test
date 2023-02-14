@@ -38,6 +38,8 @@ public class Tests
     [Test, Order(1)]
     public async Task TeamCitySuccessTestCountIsOne()
     {
+        await Task.Delay(TimeSpan.FromSeconds(20));
+        
         var result =
             await _httpClient!.GetFromJsonAsync<JsonElement>($"testOccurrences?locator=build:{_buildId},status:SUCCESS");
         var numberOfTests = result.GetProperty("testOccurrence").EnumerateArray().Count();
