@@ -48,6 +48,7 @@ public class Tests
         var result =
             await _httpClient!.GetFromJsonAsync<JsonElement>(
                 $"testOccurrences?locator=build:{_buildId},status:SUCCESS");
+        Console.WriteLine($"Api Result: {result.ToString()}");
         var numberOfTests = result.GetProperty("testOccurrence").EnumerateArray().Count();
 
         Assert.That(numberOfTests, Is.EqualTo(1));
